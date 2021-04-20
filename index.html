@@ -29,7 +29,11 @@
         margin-left: 16px;
       }
 
-      .paragraphs p:nth-child(odd) > span {
+      /*.paragraphs p:nth-child(odd) {
+        background-color: gray;
+      }*/
+
+      .one, .three {
         background-color: gray;
       }
     </style>
@@ -47,10 +51,10 @@
       <li><span>6 - :last-of-type()</span></li>
     </ul>
     <div class="paragraphs">
-      <p>Paragraph #1</p>
+      <p class="one">Paragraph #1</p>
       <p>Paragraph #2</p>
       <div>Div</div>
-      <p>Paragraph #3</p>
+      <p class="three">Paragraph #3</p>
       <p>Paragraph #4</p>
     </div>
   </body>
